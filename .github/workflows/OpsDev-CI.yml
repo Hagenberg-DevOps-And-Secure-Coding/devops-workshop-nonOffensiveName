@@ -1,6 +1,6 @@
 name: idk
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+on: [push, pull_request]
 jobs:
   pull-code-to-runner:
     runs-on: ubuntu-latest
